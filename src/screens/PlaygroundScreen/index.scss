@@ -1,0 +1,46 @@
+.right-container {
+    padding: 20px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+        .add-folder{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background-color: white;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 30px;
+            span{
+                font-weight: 400;
+            }
+        }
+
+    }
+    .folder-container{
+        .folder-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            padding: 20px 0;
+            .folder-header-item{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                button {
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    border: none ;
+
+                }
+
+            }
+        }
+
+    }
+}
